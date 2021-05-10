@@ -1,0 +1,46 @@
+.navigation {
+  min-height: 84px;
+  background: rgba(83, 115, 253, 1);
+  list-style: none;
+
+  &__title {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    color: rgb(255, 255, 255);
+    margin-top: 32px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+    align-items: center;
+  }
+  .item__link {
+    font-family: "Aleo", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    color: white;
+    text-decoration: none;
+  }
+  .menu__item {
+    list-style-type: none;
+    padding-right: 40px;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 32px;
+  }
+
+  .menu__item:hover {
+    transform: scale(1.02);
+  }
+
+  .menu__list {
+    display: flex;
+    min-height: 20px;
+    margin-right: 200px;
+  }
+}
