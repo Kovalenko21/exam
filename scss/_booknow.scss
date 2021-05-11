@@ -1,0 +1,77 @@
+.booknow {
+  background: url(../img/render.png) center center no-repeat;
+  background-size: cover;
+  height: 684px;
+
+  &__card {
+    height: 344px;
+    width: 648px;
+    background: rgba(35, 35, 35, 0.9);
+    margin-top: 220px;
+  }
+
+  .title-country {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 28px;
+    color: white;
+    padding-top: 44px;
+    padding-left: 32px;
+    letter-spacing: 2px;
+  }
+
+  .title-madrid {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 28px;
+    color: white;
+    padding-top: 16px;
+    padding-left: 32px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .card__text {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: white;
+    padding-top: 16px;
+    padding-left: 32px;
+    letter-spacing: 2px;
+  }
+
+  &__button {
+    width: 213px;
+    height: 60px;
+    background: #5373fd;
+    font-family: "Aleo", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #ffffff;
+    border-style: none;
+    margin-top: 24px;
+    margin-left: 32px;
+  }
+
+  &__button:hover {
+    background: darken(#5373fd, 5%);
+    transform: scale(1.02);
+  }
+
+  &__button:active {
+    background: darken(#5373fd, 10%);
+    transform: scale(1.02);
+  }
+}

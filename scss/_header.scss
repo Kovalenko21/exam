@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.header {
+  background: url(../img/HeaderBackground.png) center center no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 295px;
+  padding-bottom: 120px;
+  min-height: 100vh;
+
+  &__title {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    align-items: center;
+    margin: 0 auto;
+    padding-bottom: 8px;
+  }
+
+  &__subtitle {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    letter-spacing: 10px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+  }
+  &__input {
+    height: 60px;
+    width: 647px;
+    padding: 36px 20px;
+    margin: 0 auto;
+  }
+  ::placeholder {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    color: #999999;
+  }
+  &__button {
+    background: #5373fd;
+    width: 139px;
+    height: 52px;
+    font-family: "Aleo";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #ffffff;
+    border-style: none;
+    margin-left: -150px;
+  }
+
+  &__scroll {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    color: #ffffff;
+    margin-top: 211px;
+  }
+  &__scroll-svg {
+    width: 14px;
+    height: 16px;
+  }
+}
